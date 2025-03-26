@@ -50,7 +50,7 @@ nav .right-nav ul{
 }
 
 .right-nav ul li:hover{
-    color: #fff;
+    color: #429200;
 }
 
 main{
@@ -63,15 +63,15 @@ main{
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
+    position: relative;
 }
-
 .left-main{
     width: 50%;
 }
 
 .left-main p{
     /* background-color: aqua; */
-    width: 80%;
+    width: 75%;
     font-size:1.2rem;
 }
 .left-main h1{
@@ -114,8 +114,8 @@ main{
 }
 
 #profile{
-    width: 300px;
-    border-radius: 1rem;
+    width: 400px;
+    border-radius: 100%;
     overflow: hidden;
     display: flex;
     justify-content: center;
