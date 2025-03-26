@@ -54,7 +54,7 @@ const MainPage = () => {
         </div>
         <div className="right-main">
            <div id="profile"> 
-            <img src="/MyProfileImage.webp" alt="" srcset="" />
+            <img src="/Profile-picture.webp" alt="" srcset="" />
             </div>
          </div>
       </main>
