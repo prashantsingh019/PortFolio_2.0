@@ -6,7 +6,7 @@
     font-size: 12px;
   }
   #navbar {
-    padding: 4px 4px;
+    padding: 10px 4px;
     margin-bottom: 0px;
   }
   .switch {
@@ -17,7 +17,7 @@
     flex-direction: column;
     align-items: stretch;
     padding: 0px 3px;
-   
+    position: relative;
     
   }
   .left-main p {
@@ -44,12 +44,23 @@
     width: 110px;
     position: absolute;
     right: 2px;
-    top: 55px;
+    top: 5%;
 }
 main{
     background: none;
 }
 #profile img {
    border-radius: 30rem;
+}
+.social-icons {
+    width: 30px;
+    padding: 2px 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-box {
+   
+    justify-content: space-around;
 }
 }

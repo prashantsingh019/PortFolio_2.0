@@ -7,9 +7,6 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
-html{
-    font-size: 16px;
-}
 
 nav{
     display: flex;
@@ -63,7 +60,7 @@ main{
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
-    position: relative;
+    
 }
 .left-main{
     width: 50%;
