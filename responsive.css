@@ -33,12 +33,12 @@
 .contact-btns{
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
+    justify-content: space-between;
+    
 }
 #hire-btn,#resume-btn{
     /* background-color: orange; */
-    padding: .5em;
+    padding: .5em 1em;
 }
 #profile {
     width: 110px;
@@ -53,14 +53,17 @@ main{
    border-radius: 30rem;
 }
 .social-icons {
-    width: 30px;
+    width: 40px;
     padding: 2px 3px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 .contact-box {
    
     justify-content: space-around;
+}
+.hamicon{
+    display: block;
 }
 }
