@@ -1,8 +1,9 @@
 import React from "react";
 import "../App.css";
-import { faLinkedin,faGithub } from "@fortawesome/free-brands-svg-icons";
-import Buttons from "./Buttons";
 
+import Buttons from "./Buttons";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const MainPage = () => {
   return (
@@ -21,7 +22,6 @@ const MainPage = () => {
             <img
               src="hamburger.svg"
               alt=""
-              
               width={"32px"}
               className="hamicon"
             />
@@ -44,31 +44,46 @@ const MainPage = () => {
             <span style={{ fontWeight: 500, color: "skyblue" }}>Developer</span>
             &lt;/&gt;
           </h1>
+
           <p>Good Morning :)</p>
+
           <p id="main-about">
-            I'm Prashant,a passionate web developer with a strong foundation in
-            Modern Web Technologies, Including
-            JavaScript,React.js,Express.js,Node.js.
+            I'm Prashant, a passionate web developer with a strong foundation in
+            modern web technologies, including JavaScript, React.js, Express.js,
+            and Node.js.
           </p>
+
           <div className="contact-btns">
-            <button id="hire-btn">Hire Me</button>
-            <button id="resume-btn">
-              <a href="/Docs/PrashantSingh_InternshalaResume.pdf"> Resume</a>
+            <button className="btn-sm" id="talk-btn">
+              Let's Talk
+            </button>
+
+            <button className="btn-sm">
+              <a href="/Docs/PrashantSingh_InternshalaResume.pdf">Resume</a>
             </button>
           </div>
           <div className="contact-box">
-            <div className="social-icons">
-              <Buttons url={"https://www.linkedin.com/in/prashant-singh-b843b9210/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"}  icon={faLinkedin}/>
-            </div>
-           
-            <div className="social-icons">
-              <Buttons url={"https://github.com/prashantsingh019"} icon={faGithub}/>
-            </div>
+            <Buttons
+              url={
+                "https://www.linkedin.com/in/prashant-singh-b843b9210/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              }
+              icon={faLinkedin}
+            />
+
+            <Buttons
+              url={"https://github.com/prashantsingh019"}
+              icon={faGithub}
+            />
+
+            <Buttons
+              url={"https://github.com/prashantsingh019"}
+              icon={faEnvelope}
+            />
           </div>
         </div>
         <div className="right-main">
           <div id="profile">
-            <img src="/Profile-picture.webp" alt=""/>
+            <img src="/Profile-picture.webp" alt="" />
           </div>
         </div>
       </main>
